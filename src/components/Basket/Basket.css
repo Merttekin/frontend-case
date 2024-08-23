@@ -1,0 +1,25 @@
+.basket-card {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  min-width: 400px;
+  background-color: #fff;
+  padding: 20px 10px;
+}
+
+.basket-item{
+  border-bottom: solid 1px #e2e2e2;
+  padding: 3px;
+}
+
+.bet-multiplier{
+  margin: 5px 3px;
+}
+
+.bet-multiplier input{
+ width: 100px;
+}
+
+.total-price{
+  margin: 5px 3px;
+}

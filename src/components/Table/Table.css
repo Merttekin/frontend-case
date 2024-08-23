@@ -1,0 +1,33 @@
+.bet-table{
+  width: 100%;
+  border: solid 1px #000;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.bet-table td:first-child{
+ text-align: left;
+ padding: 0 10px;
+}
+
+.bet-table th{
+  padding: 10px;
+}
+
+.bet-table tr:first-child {
+  position: sticky;
+  top: 0px;
+  background-color: #aab5ad;
+}
+
+.bet-table table, tr, th, td{
+  border: solid 1px #000;
+}
+
+.bet-table tr:nth-child(2n+3) td {
+  padding: 10px;
+}
+
+.match-info {
+  width: 370px;
+}
